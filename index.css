@@ -1,0 +1,105 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #E5E5E5;
+    
+}
+.container {
+    border: 5px solid #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: 550px;
+    max-height: 970px;
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.icon {
+    width: 27.21px;
+    height: 27.21px;
+}
+
+.chat {
+    width: 24px;
+    height: 24px;
+}
+.logo {
+        width: 64px;
+        height: 32px;
+}
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .7em;
+}
+
+
+#card, .dog-img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+#card {
+    position: relative;
+}
+
+.dog-info {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+    font-family: 'Poppins';
+}
+
+.btn-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+.reject-btn, .like-btn {
+    margin-top: .5em;
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    height: 60px;
+
+}
+
+.reject-btn:hover{
+    background-color: pink;
+}
+.like-btn:hover {
+    background-color: #d0ffb7;
+}
+
+.liked, .reject {
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    margin: 15px 0px;
+    transform: rotate(-10deg);
+
+}
+
+ .end-message {
+    width: 100%;
+    height: 100vh;
+    color: #00D894;
+    font-size: 4rem;
+    font-weight: 800;
+    background: #F06957;
+    display: grid;
+    place-items:center;
+    text-align: center;
+    text-shadow: 5px 5px black;
+    font-family: 'Poppins';
+} 
+
+
+.dog-bio {
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    font-weight: 300;
+}
