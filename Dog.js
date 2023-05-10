@@ -5,10 +5,6 @@ class Dog{
     constructor(data) {
         Object.assign(this, data)
     }
-    isMatch(bool) {
-        this.hasBeenSwiped = bool
-        this.hasBeenLiked = false
-    }
     
     dogHtml() {
         const { name, avatar, age, bio } = this 
